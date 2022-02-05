@@ -2,7 +2,7 @@
   "name": "virtual-exhibition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hahosseinit.github.io/virtual-exhibition\n",
+  "homepage": "https://hahosseinit.github.io/virtual-exhibition",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
